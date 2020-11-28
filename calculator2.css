@@ -1,0 +1,112 @@
+#calculator{
+    display:grid;
+    width: 1450px;
+    height: 690px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "title title title title" 
+    "display display display display"
+    "one two three add"
+    "four five six sub"
+    "seven eight nine mul"
+    "equal zero percentage div"
+    "clear clear clear clear"
+    ;
+}
+h1{
+    grid-area: title;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Sansita Swashed', cursive;
+}
+#display{
+    grid-area: display;
+    background-color:aquamarine ;
+    font-size:30px ;
+}
+#one{
+    grid-area: one;
+    background-color:darkblue ;
+    font-size:30px;
+}
+#two{
+    grid-area: two;
+    background-color:yellow ;
+    font-size: 30px;
+}
+#three{
+    grid-area: three;
+    background-color:lightgreen ;
+    font-size: 30px;
+}
+#equal{
+    grid-area: equal;
+    background-color:darkblue ;
+    font-size: 30px;
+}
+#four{
+    grid-area: four;
+    background-color:darkblue ;
+    font-size: 30px;
+}
+#five{
+    grid-area: five;
+    background-color:yellow ;
+    font-size: 30px;
+}
+#six{
+    grid-area: six;
+    background-color:lightgreen ;
+    font-size: 30px;
+}
+#add{
+    grid-area: add;
+    background-color:red ;
+    font-size: 30px;
+}
+#seven{
+    grid-area: seven;
+    background-color:darkblue ;
+    font-size: 30px;
+}
+#eight{
+    grid-area: eight;
+    background-color:yellow ;
+    font-size: 30px;
+}
+#nine{
+    grid-area: nine;
+    background-color:lightgreen ;
+    font-size: 30px;
+}
+#sub{
+    grid-area: sub;
+    background-color:red ;
+    font-size: 30px;
+}
+#div{
+    grid-area: div;
+    background-color:red ;
+    font-size: 30px;
+}
+#zero{
+    grid-area: zero;
+    background-color:yellow ;
+    font-size: 30px;
+}
+#mul{
+    grid-area: mul;
+    background-color:red ;
+    font-size: 30px;
+}
+#percentage{
+    grid-area: percentage;
+    background-color:lightgreen ;
+    font-size: 30px;
+}
+#clear{
+    grid-area: clear;
+    background-color:orange ;
+    font-size: 30px;
+}
